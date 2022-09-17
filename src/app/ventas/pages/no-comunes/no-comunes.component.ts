@@ -62,7 +62,7 @@ export class NoComunesComponent {
 	];
 
 	//Async Pipe
-	miObservable = interval(5000); //0,1,2,3,4...
+	miObservable = interval(2000); //0,1,2,3,4...
 	valorPromesa = new Promise( (resolve, reject) => {
 		setTimeout(() => {
 			resolve("Tenemos data de promesa");
